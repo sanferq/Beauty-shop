@@ -1,0 +1,36 @@
+.section-result {
+    background-color: #f9f6f5;
+    margin-bottom: 130px;
+}
+
+.result-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.result-item {
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.result-item-title {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.25;
+    color: #222;
+    text-align: center;
+    border-bottom: 3px solid #222222;
+}
+
+.text-result {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    color: $black-color;
+}
+
+

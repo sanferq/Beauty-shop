@@ -1,0 +1,81 @@
+.button-main {
+    width: 148px;
+    height: 56px;
+
+    text-align: center;
+    background-color: #402f2c;
+    
+    font-family: "Red Hat Display", sans-serif;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;  
+    transition: all 0.25s ease;
+
+    &:hover {
+        text-align: center;
+
+        background-color:#ffffff;
+        border: solid 1px rgba(104, 90, 82, 0.46);
+        color: #402f2c
+    }
+    
+}
+.button-card-buy {
+    width: 137px;
+    height: 56px;
+    margin-right: 24px;
+    text-align: center;
+    background-color: #402f2c;
+    font-family: "Red Hat Display", sans-serif;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;  
+    transition: all 0.25s ease;
+    flex-shrink: 0;
+
+    &:hover {
+        text-align: center;
+        background-color:#ffffff;
+        border: solid 1px rgba(104, 90, 82, 0.46);
+        color: #402f2c
+        
+    }
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+}
+
+.button-card-add {
+    width: 137px;
+    height: 56px;
+    margin-right: 150px;
+    text-align: center;
+    background-color: #ffffff;
+    
+    font-family: "Red Hat Display", sans-serif;
+    color:#000000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;  
+    transition: all 0.25s ease;
+    border:  solid 1px rgba(104, 90, 82, 0.46);;
+    flex-shrink: 0;
+
+    &:hover {
+        text-align: center;
+        background-color: #402f2c;
+        border: solid 1px rgba(104, 90, 82, 0.46);
+        color: #ffffff
+    }
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+}

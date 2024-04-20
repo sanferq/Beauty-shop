@@ -1,0 +1,129 @@
+.section-product {
+    margin-bottom: 130px;
+}
+
+.prodct-title {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #000;
+  margin-bottom: 20px;
+
+  /* Mobile */
+  @media (max-width:1199px) {
+    font-size: 40px;
+  }
+}
+
+.product-text__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+      display: block;
+    }
+}
+
+.product-text {
+    width: 714px;
+    height: 75px;
+    color: $black-color;
+    font-size: 20px;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+        width: auto;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+}
+
+.arrow-product {
+    display: flex;
+    align-items: baseline;
+}
+
+.our-products {
+    font-family: "Red Hat Display", sans-serif;
+    width: 248px ;
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #000;
+    margin-right: 12px;
+}
+
+.arrow {
+    width: 16px;
+}
+
+.product-card__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-gap: 40px;
+}
+
+.card {
+    border: solid 1px rgba(104, 90, 82, 0.19);
+    
+}
+
+.card-img {
+    object-fit: cover;
+    width: 600px;
+    height: 484px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #222;
+    margin: 0px 52px 0px 32px;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+      font-size: 36px;
+    }
+}
+
+.card-text {
+    width: auto;
+    color: $black-color;
+    font-size: 20px;
+    margin-bottom: 47px;
+    margin: 0px 52px 48px 32px;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+      margin: 18px;
+    }
+}
+
+.button-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.card-price {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #222;
+    cursor: default;
+    display: flex;
+    align-items: center;
+}

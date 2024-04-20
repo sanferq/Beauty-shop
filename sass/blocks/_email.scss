@@ -1,0 +1,66 @@
+.section-email {
+    background-color: #fafafa;
+}
+
+.email-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 108px;
+    padding-bottom: 63px;
+    border-bottom: 1px solid #dddddd;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.email-title {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.28;
+    color: #222;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+}
+
+.email-submit {
+    position: relative;
+    width: 386px;
+}
+
+.email-obj {
+    width: 386px;
+    height: 56px;
+    padding-left: 16px;
+    color: #999999;
+}
+
+.button-email {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 103px;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    background-color: #402f2c;
+    cursor: pointer;
+    color: white;
+    transition: all 0.25s ease;
+    &:hover {
+        text-align: center;
+        background-color:#ffffff;
+        border: solid 1px rgba(104, 90, 82, 0.46);
+        color: #402f2c
+    }
+
+}

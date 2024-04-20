@@ -1,0 +1,88 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.header {
+    background-color: #f9f6f5;
+}
+
+.header__wrapper {
+    margin-top: 45px;
+    margin-bottom: 60px;
+    background-color: #F9F6F5;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo-title {
+    font-size: 24px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      font-size: 19px;
+    }
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      width: 50%;
+    }
+
+    /* Mobile */
+    @media (max-width: 667px) {
+      
+    }
+}
+
+.item-nav {
+    margin-right: 40px;
+    font-size: 16px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      font-size: 14px;  
+      margin-right: 20px;
+    }
+
+    /* Mobile */
+    @media (max-width: 599px) {
+      font-size: 12px;  
+      margin-right: 10px;
+    }
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-btn {
+    margin-right: 23px;
+    &:last-child {
+        margin-right: 0;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      margin-right: 15px;
+    }
+}

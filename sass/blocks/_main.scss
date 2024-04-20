@@ -1,0 +1,119 @@
+.section-main {
+    background-color: #F9F6F5;
+    margin-bottom: 130px;
+    display: flex;
+    z-index: 1;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+      margin-bottom: 60px;
+    }
+
+    
+}
+
+.main-row {
+    display: flex;
+    margin-top: 40px;
+    /* Mobile */
+    @media (max-width: 1199px) {
+      display: block;
+    }
+
+
+}
+
+.main-info {
+    max-width: 621px;
+    margin-bottom: 110px;
+    z-index:  1;
+    float: left; /* Гарантирует, что текст останется слева */
+
+}
+
+.main-title {
+    margin-bottom: 30px;
+    width: 621px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: $title-color;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+        width: auto; 
+        font-size: 40px; 
+    }
+}
+
+.main-base-text {
+    margin-bottom: 30px;
+    width: 516px;
+    height: 96px;
+    font-size: 20px;
+    color: $black-color;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+        width: auto;
+        font-size: 18px;
+    }
+
+}
+
+.main-search {
+    position: relative;
+    width: 326px;
+    margin-bottom: 60px;
+   
+}
+
+.search {
+    width: 326px;
+    height: 47px;
+    padding-left: 16px;
+    color: #999999;
+}
+
+.loop {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 32px;
+    height: 32px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    background-color: #402f2c;
+    cursor: pointer;
+}
+
+.loop-indent {
+    margin: auto;
+}
+
+.main-img {
+    position: absolute;
+    padding-bottom: 24px;
+    width: 644px;
+    height: 605px;
+    object-fit: cover;
+    z-index: -1;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+       padding-bottom: 0; 
+       position: absolute;
+       flex-shrink: 1;
+       right: 0;
+       height: 519px;
+       
+    }
+
+    /* Mobile */
+    @media (max-width: 799px) {
+      height: 515px;
+    }
+}
+
