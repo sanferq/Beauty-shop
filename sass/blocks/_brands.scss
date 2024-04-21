@@ -3,7 +3,12 @@
 
     /* Mobile */
     @media (max-width: 1199px) {
-        padding: 0 20px; /* Пример: добавление отступов для мобильных устройств */
+        padding: 0 20px; 
+    }
+
+    /* Mobile */
+    @media (max-width: 599px) {
+      margin-bottom: 20px;
     }
 }
 
@@ -17,7 +22,7 @@
 
     /* Mobile */
     @media (max-width: 1199px) {
-        flex-wrap: wrap; /* Пример: перенос элементов на новую строку на мобильных устройствах */
+        flex-wrap: wrap; 
     }
 }
 
@@ -33,7 +38,6 @@
     /* Mobile */
     @media (max-width: 1199px) {
         width: auto;
-        margin-right: 20px; /* Пример: добавление отступа между элементами на мобильных устройствах */
-        margin-bottom: 20px; /* Пример: уменьшение отступа между элементами на мобильных устройствах */
+        margin-bottom: 43px; 
     }
 }

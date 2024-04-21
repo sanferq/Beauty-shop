@@ -8,6 +8,11 @@
       margin-bottom: 80px;  
       flex-wrap: wrap;
     }
+
+    /* Mobile */
+    @media (max-width: 599px) {
+      margin-bottom: 20px;
+    }
 }
 
 .beauty-main__title {
@@ -110,6 +115,11 @@
     @media (max-width: 1199px) {
       display: block;
     }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      margin-bottom: 20px;
+    }
 }
 
 .title-reverse {
@@ -156,12 +166,13 @@
 
 .rev-prof {
     font-size: 20px;
+    margin-bottom: 10px;
     line-height: 1.2;
     color: $black-color;
 
     /* Mobile */
     @media (max-width: 899px) {
-      margin-bottom: 5px;
+      margin-bottom: 20px;
     }
 }
 
@@ -186,13 +197,9 @@
 
     /* Mobile */
     @media (max-width: 1199px) {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
-    /* Mobile */
-    @media (max-width: 899px) {
-       
-    }
-   
+
 }
 
 
