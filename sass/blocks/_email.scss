@@ -22,11 +22,17 @@
     font-weight: 500;
     line-height: 1.28;
     color: #222;
+    text-align: center;
 
     /* Mobile */
     @media (max-width: 899px) {
       margin-bottom: 10px;
       font-size: 32px;
+    }
+
+    /* Mobile */
+    @media (max-width: 599px) {
+      font-size: 36px;
     }
 
 }
@@ -41,6 +47,11 @@
     height: 56px;
     padding-left: 16px;
     color: #999999;
+
+    /* Mobile */
+    @media (max-width: 599px) {
+      width: 346px;
+    }
 }
 
 .button-email {

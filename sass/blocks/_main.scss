@@ -66,6 +66,11 @@
     position: relative;
     width: 326px;
     margin-bottom: 60px;
+
+    /* Mobile */
+    @media (max-width: 499px) {
+      width: 250px;
+    }
    
 }
 
@@ -74,6 +79,11 @@
     height: 47px;
     padding-left: 16px;
     color: #999999;
+
+        /* Mobile */
+        @media (max-width: 499px) {
+            width: 250px;
+          }
 }
 
 .loop {

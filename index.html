@@ -26,23 +26,32 @@
 		<div class="header__wrapper">
 			<div class="container">
 				<nav class="header__nav">
-					<h1 class="logo-title">Dudeshape</h1>
+					<h1 class="logo-title"><a href="#">Dudeshape</a></h1>
 					<ul class="header__nav-list">
 						<li class="item-nav"><a href="#">Home</a></li>
 						<li class="item-nav"><a href="#">Products</a></li>
 						<li class="item-nav"><a href="#">About Us</a></li>
 						<li class="item-nav"><a href="#">Contact Us</a></li>
 					</ul>
-					<div class="header-menu">
+					<nav class="header-menu">
 						<button class="header-btn user"><img src="./img/nav/profile.svg" alt=""></button>
 						<button class="header-btn cart"><img src="./img/nav/buy.svg" alt=""></button>
-						<button class="header-btn menu-us"><img src="./img/nav/menu.svg" alt=""></button>
-					</div>
+						<button class="header-btn menu-us" id="menu"><img src="./img/nav/menu.svg" alt=""></button>
+
+						<div class="fullscreen-menu" id="fullscreen-menu">
+						  <button class="close-btn" id="close-menu">&times;</button> <!-- Заменяем текст на символ крестика -->
+						  <ul>
+							<li><a href="#">Account</a></li>
+							<li><a href="#">Cart</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Contact US</a></li>
+						  </ul>
+						</div>
 					</nav>
-				</div>	
+				</nav>
 			</div>	
-		</div>
-			
+		</div>	
 	</header>
 	<main class="section-main" id="section-main">
 		<div class="container">

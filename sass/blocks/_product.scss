@@ -36,8 +36,19 @@
     /* Mobile */
     @media (max-width: 1199px) {
         width: auto;
+        flex-wrap: wrap;
         font-size: 18px;
         margin-bottom: 5px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+      margin-bottom: 10px;
+    }
+
+    /* Mobile */
+    @media (max-width: 425px) {
+      margin-bottom: 60px;
     }
 }
 
@@ -100,10 +111,7 @@
     margin-bottom: 47px;
     margin: 0px 52px 48px 32px;
 
-    /* Mobile */
-    @media (max-width: 1199px) {
-      margin: 18px;
-    }
+    
 }
 
 .button-row {

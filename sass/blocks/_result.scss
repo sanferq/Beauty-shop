@@ -1,6 +1,11 @@
 .section-result {
     background-color: #f9f6f5;
     margin-bottom: 130px;
+
+    /* Mobile */
+    @media (max-width: 1199px) {
+      margin-bottom: 0;
+    }
 }
 
 .result-row {
