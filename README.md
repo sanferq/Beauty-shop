@@ -42,6 +42,7 @@
 Свяжитесь с нами:
 
 - **GitHub**: [@sanferq](https://github.com/sanferq)
+- **LinkedIn**: [Maksim Proselkin](https://www.linkedin.com/in/maksim-proselkin-769790363/)
 - **Email**: [proselkinmaksim@gmail.com](mailto:proselkinmaksim@gmail.com)
 
 ---
